@@ -136,6 +136,13 @@
             <artifactId>spring-boot-starter-freemarker</artifactId>
             <!--<scope>provided</scope>--><!-- 作用域，provided的意思是打包成war包的时候忽略这几个包，因为tomcat会跟这几个包冲突-->
         </dependency>
+        <!--devtools热部署-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+            <scope>true</scope>
+        </dependency>
     </dependencies>
 
     <build>

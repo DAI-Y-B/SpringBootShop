@@ -8099,3 +8099,712 @@
 2021-09-25 03:21:07,285 63971  [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
 2021-09-25 03:21:07,287 63973  [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
 2021-09-25 03:21:07,287 63973  [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:44:22,815 0      [nio-8080-exec-1] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 09:44:22,929 114    [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 09:44:22,930 115    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+2021-09-25 09:44:22,930 115    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+2021-09-25 09:44:22,931 116    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index.ftlh"): Not found
+2021-09-25 09:44:23,363 548    [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:44:23,364 549    [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:44:23,409 594    [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:44:23,409 594    [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:44:23,414 599    [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:44:23,414 599    [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:44:23,419 604    [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:44:23,419 604    [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:44:23,423 608    [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:44:23,423 608    [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:44:23,426 611    [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 09:44:23,426 611    [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 09:44:25,330 2515   [nio-8080-exec-3] INFO  ring.controller.UserController  - 调用showLogin方法,实现了登陆验证功能
+2021-09-25 09:44:25,331 2516   [nio-8080-exec-3] DEBUG               freemarker.cache  - Couldn't find template in cache for "user/login.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 09:44:25,331 2516   [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh_CN.ftlh"): Not found
+2021-09-25 09:44:25,331 2516   [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh.ftlh"): Not found
+2021-09-25 09:44:25,331 2516   [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login.ftlh"): Not found
+2021-09-25 09:44:25,460 2645   [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:44:25,460 2645   [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:44:31,846 9031   [nio-8080-exec-5] INFO  g.service.impl.UserServiceImpl  - 调用UserServiceImpl类的login方法,实现了用户登陆功能
+2021-09-25 09:44:31,848 9033   [nio-8080-exec-5] INFO  g.service.impl.BankServiceImpl  - 调用BankServiceImpl类的seletcBankByUserId方法,实现了根据用户的Id查询对应的银行卡信息
+2021-09-25 09:44:31,848 9033   [nio-8080-exec-5] INFO  .service.impl.RightServiceImpl  - 调用RightServiceImpl类的selectByUserId方法,实现了查询用户是不是Vip的信息
+2021-09-25 09:44:31,849 9034   [nio-8080-exec-5] INFO  ng.service.impl.VipServiceImpl  - 调用UserServiceImpl类的selectVipByuser方法,实现了根据用户id查询对应用户的vip信息 
+2021-09-25 09:44:31,849 9034   [nio-8080-exec-5] INFO  g.service.impl.RoleServiceImpl  - 调用RoleServiceImpl类的selectByUserStatus方法,实现了给用户创建银行卡信息
+2021-09-25 09:44:31,850 9035   [nio-8080-exec-5] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 09:44:31,852 9037   [nio-8080-exec-5] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 09:44:31,852 9037   [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh_CN.ftlh"): Not found
+2021-09-25 09:44:31,852 9037   [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh.ftlh"): Not found
+2021-09-25 09:44:31,853 9038   [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index.ftlh"): Not found
+2021-09-25 09:48:10,360 227545 [io-8080-exec-10] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的checkStockProducts方法,检查库存是否充足
+2021-09-25 09:48:10,362 227547 [io-8080-exec-10] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/product.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 09:48:10,362 227547 [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 09:48:10,362 227547 [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 09:48:10,362 227547 [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 09:48:10,462 227647 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 09:48:10,462 227647 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 09:48:10,464 227649 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 09:48:11,789 228974 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 09:48:11,789 228974 [nio-8080-exec-5] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 09:48:11,793 228978 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:48:11,793 228978 [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:48:11,796 228981 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:11,796 228981 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:11,799 228984 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:11,799 228984 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:11,801 228986 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:11,801 228986 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:11,804 228989 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:11,804 228989 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:26,330 243515 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 09:48:26,337 243522 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 09:48:26,338 243523 [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 09:48:26,338 243523 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的updateUser方法,根据商品的id修改商品信息
+2021-09-25 09:48:26,342 243527 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 09:48:26,342 243527 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 09:48:26,342 243527 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 09:48:26,342 243527 [nio-8080-exec-9] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 09:48:26,357 243542 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 09:48:26,357 243542 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 09:48:26,359 243544 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 09:48:30,596 247781 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 09:48:30,602 247787 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 09:48:30,603 247788 [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 09:48:30,604 247789 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的updateUser方法,根据商品的id修改商品信息
+2021-09-25 09:48:30,608 247793 [nio-8080-exec-4] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 09:48:30,633 247818 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 09:48:30,633 247818 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 09:48:30,634 247819 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 09:48:32,393 249578 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 09:48:32,393 249578 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:48:32,394 249579 [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 09:48:32,394 249579 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:48:32,399 249584 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:32,399 249584 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:32,402 249587 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:32,402 249587 [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:32,407 249592 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:32,407 249592 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:32,411 249596 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:32,411 249596 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:51,495 268680 [nio-8080-exec-7] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/product-add.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 09:48:51,495 268680 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product-add_zh_CN.ftlh"): Not found
+2021-09-25 09:48:51,495 268680 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product-add_zh.ftlh"): Not found
+2021-09-25 09:48:51,495 268680 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product-add.ftlh"): Not found
+2021-09-25 09:48:51,598 268783 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:48:51,598 268783 [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 09:48:51,603 268788 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:51,611 268796 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:51,615 268800 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:51,615 268800 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:51,618 268803 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:51,618 268803 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:48:51,621 268806 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 09:48:51,621 268806 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 09:49:49,445 326630 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 09:49:49,448 326633 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 09:49:49,449 326634 [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的addSomeOne方法,添加商品
+2021-09-25 09:49:49,454 326639 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 09:49:49,454 326639 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 09:49:49,454 326639 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 09:49:49,454 326639 [nio-8080-exec-2] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 09:49:49,475 326660 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 09:49:49,475 326660 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 09:49:49,476 326661 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:13:24,755 0      [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 10:13:24,775 20     [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 10:13:24,866 111    [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的addSomeOne方法,添加商品
+2021-09-25 10:13:24,877 122    [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/product.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:13:24,878 123    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:13:24,878 123    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:13:24,878 123    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:13:25,217 462    [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:13:25,218 463    [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:13:25,220 465    [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:13:27,387 2632   [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 10:13:27,391 2636   [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 10:13:27,392 2637   [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的addSomeOne方法,添加商品
+2021-09-25 10:13:27,397 2642   [nio-8080-exec-7] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:13:27,422 2667   [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:13:27,422 2667   [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:13:27,426 2671   [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:13:28,579 3824   [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 10:13:28,581 3826   [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 10:13:28,583 3828   [nio-8080-exec-5] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的addSomeOne方法,添加商品
+2021-09-25 10:13:28,588 3833   [nio-8080-exec-5] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:13:28,609 3854   [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:13:28,609 3854   [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:13:28,611 3856   [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:15:30,410 0      [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 10:15:30,416 6      [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 10:15:30,510 100    [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的addSomeOne方法,添加商品
+2021-09-25 10:15:30,520 110    [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/product.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:15:30,521 111    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:15:30,522 112    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:15:30,522 112    [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:15:30,920 510    [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:15:30,920 510    [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:15:30,923 513    [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:15:36,157 5747   [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 10:15:36,158 5748   [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:15:36,158 5748   [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:15:36,158 5748   [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:15:36,170 5760   [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:15:36,170 5760   [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:15:36,175 5765   [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:15:36,175 5765   [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:15:36,180 5770   [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:15:36,180 5770   [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:15:36,184 5774   [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:15:36,184 5774   [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:16:53,211 82801  [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 10:16:53,211 82801  [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:16:53,212 82802  [io-8080-exec-10] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:16:53,212 82802  [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:16:53,222 82812  [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:16:53,222 82812  [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:16:53,229 82819  [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:16:53,229 82819  [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:16:53,234 82824  [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:16:53,234 82824  [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:16:53,239 82829  [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:16:53,239 82829  [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:19:23,839 0      [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:19:23,840 1      [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:19:23,842 3      [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 10:19:23,842 3      [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:19:24,014 175    [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:19:24,015 176    [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:19:24,020 181    [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:19:24,020 181    [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:19:24,027 188    [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:19:24,027 188    [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:19:24,033 194    [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:19:24,033 194    [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:20:21,642 57803  [io-8080-exec-10] INFO  ring.controller.UserController  - 调用showLogin方法,实现了登陆验证功能
+2021-09-25 10:20:21,646 57807  [io-8080-exec-10] DEBUG               freemarker.cache  - Couldn't find template in cache for "user/login.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:20:21,647 57808  [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh_CN.ftlh"): Not found
+2021-09-25 10:20:21,648 57809  [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh.ftlh"): Not found
+2021-09-25 10:20:21,648 57809  [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login.ftlh"): Not found
+2021-09-25 10:20:21,787 57948  [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:20:21,787 57948  [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:20:26,596 62757  [nio-8080-exec-2] INFO  g.service.impl.UserServiceImpl  - 调用UserServiceImpl类的login方法,实现了用户登陆功能
+2021-09-25 10:20:26,597 62758  [nio-8080-exec-2] INFO  g.service.impl.BankServiceImpl  - 调用BankServiceImpl类的seletcBankByUserId方法,实现了根据用户的Id查询对应的银行卡信息
+2021-09-25 10:20:26,598 62759  [nio-8080-exec-2] INFO  .service.impl.RightServiceImpl  - 调用RightServiceImpl类的selectByUserId方法,实现了查询用户是不是Vip的信息
+2021-09-25 10:20:26,598 62759  [nio-8080-exec-2] INFO  ng.service.impl.VipServiceImpl  - 调用UserServiceImpl类的selectVipByuser方法,实现了根据用户id查询对应用户的vip信息 
+2021-09-25 10:20:26,599 62760  [nio-8080-exec-2] INFO  g.service.impl.RoleServiceImpl  - 调用RoleServiceImpl类的selectByUserStatus方法,实现了给用户创建银行卡信息
+2021-09-25 10:20:26,599 62760  [nio-8080-exec-2] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:20:26,602 62763  [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:20:26,602 62763  [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh_CN.ftlh"): Not found
+2021-09-25 10:20:26,602 62763  [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh.ftlh"): Not found
+2021-09-25 10:20:26,602 62763  [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index.ftlh"): Not found
+2021-09-25 10:20:29,906 66067  [nio-8080-exec-4] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/productClass.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:20:29,907 66068  [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/productClass_zh_CN.ftlh"): Not found
+2021-09-25 10:20:29,907 66068  [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/productClass_zh.ftlh"): Not found
+2021-09-25 10:20:29,907 66068  [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/productClass.ftlh"): Not found
+2021-09-25 10:20:30,007 66168  [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:20:30,007 66168  [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:20:30,014 66175  [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:20:30,014 66175  [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:20:30,019 66180  [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:20:30,019 66180  [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:20:30,023 66184  [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:20:30,024 66185  [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:20:30,028 66189  [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:20:30,029 66190  [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:11,155 107316 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的checkStockProducts方法,检查库存是否充足
+2021-09-25 10:21:11,157 107318 [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/product.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:21:11,157 107318 [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:21:11,157 107318 [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:21:11,158 107319 [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:21:11,250 107411 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:21:11,251 107412 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:21:11,253 107414 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:21:12,754 108915 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 10:21:12,754 108915 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:21:12,759 108920 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:21:12,759 108920 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:21:12,763 108924 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:12,763 108924 [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:12,767 108928 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:12,767 108928 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:12,771 108932 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:12,771 108932 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:12,774 108935 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:12,774 108935 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:17,948 114109 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用productAdd方法,添加商品
+2021-09-25 10:21:17,955 114116 [nio-8080-exec-5] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:21:17,956 114117 [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 10:21:17,958 114119 [nio-8080-exec-5] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的updateUser方法,根据商品的id修改商品信息
+2021-09-25 10:21:17,961 114122 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:21:17,961 114122 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:21:17,961 114122 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:21:17,961 114122 [nio-8080-exec-5] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:21:17,979 114140 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:21:17,979 114140 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:21:17,981 114142 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:21:27,186 123347 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:21:27,188 123349 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:21:27,186 123347 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 10:21:27,188 123349 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:21:27,194 123355 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:27,194 123355 [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:27,199 123360 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:27,199 123360 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:27,203 123364 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:27,203 123364 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:21:27,206 123367 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:21:27,206 123367 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:22:38,183 194344 [nio-8080-exec-7] DEBUG               freemarker.cache  - Couldn't find template in cache for "error.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:22:38,184 194345 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error_zh_CN.ftlh"): Not found
+2021-09-25 10:22:38,184 194345 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error_zh.ftlh"): Not found
+2021-09-25 10:22:38,184 194345 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error.ftlh"): Not found
+2021-09-25 10:22:39,991 196152 [nio-8080-exec-9] DEBUG               freemarker.cache  - "error.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:23:00,354 216515 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用queryProductByPage方法,修改信息前先查询出相关信息
+2021-09-25 10:23:00,354 216515 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:23:00,354 216515 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:00,355 216516 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:00,360 216521 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:23:00,360 216521 [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:23:00,363 216524 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:23:00,363 216524 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:23:00,367 216528 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:23:00,367 216528 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:23:00,370 216531 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:23:00,370 216531 [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:23:01,927 218088 [nio-8080-exec-9] INFO  ring.controller.UserController  - 调用showLogin方法,实现了登陆验证功能
+2021-09-25 10:23:01,928 218089 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh_CN.ftlh"): Not found
+2021-09-25 10:23:01,928 218089 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh.ftlh"): Not found
+2021-09-25 10:23:01,928 218089 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login.ftlh"): Not found
+2021-09-25 10:23:01,928 218089 [nio-8080-exec-9] DEBUG               freemarker.cache  - "user/login.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:23:01,948 218109 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:01,948 218109 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:06,190 222351 [nio-8080-exec-1] DEBUG               freemarker.cache  - "user/login.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:23:06,207 222368 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:06,207 222368 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:10,560 226721 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh_CN.ftlh"): Not found
+2021-09-25 10:23:10,560 226721 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh.ftlh"): Not found
+2021-09-25 10:23:10,560 226721 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login.ftlh"): Not found
+2021-09-25 10:23:10,560 226721 [nio-8080-exec-5] DEBUG               freemarker.cache  - "user/login.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:23:10,574 226735 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:10,574 226735 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:23:18,949 235110 [nio-8080-exec-2] INFO  g.service.impl.UserServiceImpl  - 调用UserServiceImpl类的login方法,实现了用户登陆功能
+2021-09-25 10:23:18,950 235111 [nio-8080-exec-2] INFO  g.service.impl.BankServiceImpl  - 调用BankServiceImpl类的seletcBankByUserId方法,实现了根据用户的Id查询对应的银行卡信息
+2021-09-25 10:23:18,951 235112 [nio-8080-exec-2] INFO  .service.impl.RightServiceImpl  - 调用RightServiceImpl类的selectByUserId方法,实现了查询用户是不是Vip的信息
+2021-09-25 10:23:18,951 235112 [nio-8080-exec-2] INFO  ng.service.impl.VipServiceImpl  - 调用UserServiceImpl类的selectVipByuser方法,实现了根据用户id查询对应用户的vip信息 
+2021-09-25 10:23:18,952 235113 [nio-8080-exec-2] INFO  g.service.impl.RoleServiceImpl  - 调用RoleServiceImpl类的selectByUserStatus方法,实现了给用户创建银行卡信息
+2021-09-25 10:23:18,952 235113 [nio-8080-exec-2] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:23:18,953 235114 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh_CN.ftlh"): Not found
+2021-09-25 10:23:18,954 235115 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh.ftlh"): Not found
+2021-09-25 10:23:18,954 235115 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index.ftlh"): Not found
+2021-09-25 10:23:18,954 235115 [nio-8080-exec-2] DEBUG               freemarker.cache  - "manage/index.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:23:20,419 236580 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的checkStockProducts方法,检查库存是否充足
+2021-09-25 10:23:20,422 236583 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:23:20,422 236583 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:23:20,422 236583 [nio-8080-exec-7] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:23:20,422 236583 [nio-8080-exec-7] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:23:20,440 236601 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:20,441 236602 [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:20,442 236603 [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:23:23,340 239501 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用queryProductByPage方法,删除商品信息
+2021-09-25 10:23:23,340 239501 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:23:23,342 239503 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的delProductInfoById方法,根据商品的id删除商品信息
+2021-09-25 10:23:23,354 239515 [nio-8080-exec-1] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:23:23,370 239531 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:23,371 239532 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:23,372 239533 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:23:25,885 242046 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用queryProductByPage方法,删除商品信息
+2021-09-25 10:23:25,885 242046 [nio-8080-exec-6] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:23:25,887 242048 [nio-8080-exec-6] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的delProductInfoById方法,根据商品的id删除商品信息
+2021-09-25 10:23:25,890 242051 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:23:25,891 242052 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:23:25,891 242052 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:23:25,891 242052 [nio-8080-exec-6] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:23:25,906 242067 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:25,906 242067 [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:25,908 242069 [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:23:27,624 243785 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用queryProductByPage方法,删除商品信息
+2021-09-25 10:23:27,625 243786 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:23:27,626 243787 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的delProductInfoById方法,根据商品的id删除商品信息
+2021-09-25 10:23:27,638 243799 [nio-8080-exec-7] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:23:27,655 243816 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:27,655 243816 [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:27,657 243818 [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:23:29,342 245503 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用queryProductByPage方法,删除商品信息
+2021-09-25 10:23:29,342 245503 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:23:29,343 245504 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的delProductInfoById方法,根据商品的id删除商品信息
+2021-09-25 10:23:29,355 245516 [nio-8080-exec-9] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-09-25 10:23:29,371 245532 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:29,371 245532 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:29,372 245533 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:23:31,900 248061 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:31,900 248061 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:31,901 248062 [nio-8080-exec-3] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:23:57,338 273499 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用queryProductByPage方法,删除商品信息
+2021-09-25 10:23:57,339 273500 [nio-8080-exec-5] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:23:57,340 273501 [nio-8080-exec-5] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的delProductInfoById方法,根据商品的id删除商品信息
+2021-09-25 10:23:57,352 273513 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:23:57,352 273513 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:23:57,353 273514 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:23:57,353 273514 [nio-8080-exec-5] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:23:57,371 273532 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:23:57,371 273532 [nio-8080-exec-6] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:23:57,373 273534 [nio-8080-exec-6] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:24:19,415 295576 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用queryProductByPage方法,删除商品信息
+2021-09-25 10:24:19,415 295576 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品的id查询商品信息
+2021-09-25 10:24:19,417 295578 [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh_CN.ftlh"): Not found
+2021-09-25 10:24:19,417 295578 [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product_zh.ftlh"): Not found
+2021-09-25 10:24:19,417 295578 [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/product.ftlh"): Not found
+2021-09-25 10:24:19,417 295578 [nio-8080-exec-4] DEBUG               freemarker.cache  - "manage/product.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:24:19,431 295592 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用queryProductByPage方法,查询商品信息
+2021-09-25 10:24:19,432 295593 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:24:19,433 295594 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getProductByPage方法,进行分页计算
+2021-09-25 10:24:25,721 301882 [nio-8080-exec-9] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:24:25,723 301884 [nio-8080-exec-9] DEBUG               freemarker.cache  - Couldn't find template in cache for "index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:24:25,723 301884 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+2021-09-25 10:24:25,724 301885 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+2021-09-25 10:24:25,724 301885 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index.ftlh"): Not found
+2021-09-25 10:24:25,872 302033 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:25,872 302033 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:25,876 302037 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:25,876 302037 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:25,880 302041 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:25,880 302041 [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:25,884 302045 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:25,884 302045 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:25,888 302049 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:25,888 302049 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:25,890 302051 [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:24:25,890 302051 [nio-8080-exec-4] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 10:24:56,860 333021 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用getProductByPage方法,查询商品信息
+2021-09-25 10:24:56,860 333021 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateById方法,根据目录Id查询商品目录
+2021-09-25 10:24:56,861 333022 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:56,861 333022 [io-8080-exec-10] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的countProductByCond方法,查询对应节点的信息
+2021-09-25 10:24:56,892 333053 [io-8080-exec-10] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的queryProductByPageByCond方法
+2021-09-25 10:24:58,057 334218 [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:58,057 334218 [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:58,061 334222 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,062 334223 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,065 334226 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,065 334226 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,069 334230 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,069 334230 [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,073 334234 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,073 334234 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,093 334254 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:58,093 334254 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:58,096 334257 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,096 334257 [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,100 334261 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,100 334261 [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,104 334265 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,104 334265 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,107 334268 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:58,108 334269 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:58,111 334272 [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 10:24:58,111 334272 [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:24:59,080 335241 [nio-8080-exec-5] DEBUG               freemarker.cache  - Couldn't find template in cache for "user/guestbook.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:24:59,080 335241 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/guestbook_zh_CN.ftlh"): Not found
+2021-09-25 10:24:59,080 335241 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/guestbook_zh.ftlh"): Not found
+2021-09-25 10:24:59,080 335241 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/guestbook.ftlh"): Not found
+2021-09-25 10:24:59,162 335323 [nio-8080-exec-6] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getAllComments方法,获取全部的留言信息
+2021-09-25 10:24:59,164 335325 [nio-8080-exec-6] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getCommentByPage方法,进行分页计算
+2021-09-25 10:24:59,171 335332 [nio-8080-exec-2] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getAllComments方法,获取全部的留言信息
+2021-09-25 10:24:59,171 335332 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:59,171 335332 [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:24:59,172 335333 [nio-8080-exec-2] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getCommentByPage方法,进行分页计算
+2021-09-25 10:24:59,175 335336 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:59,175 335336 [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:59,178 335339 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:59,178 335339 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:59,183 335344 [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:59,183 335344 [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:24:59,186 335347 [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:24:59,186 335347 [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:00,549 336710 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error_zh_CN.ftlh"): Not found
+2021-09-25 10:25:00,549 336710 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error_zh.ftlh"): Not found
+2021-09-25 10:25:00,550 336711 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error.ftlh"): Not found
+2021-09-25 10:25:00,550 336711 [nio-8080-exec-9] DEBUG               freemarker.cache  - "error.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:25:01,265 337426 [nio-8080-exec-3] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getAllComments方法,获取全部的留言信息
+2021-09-25 10:25:01,267 337428 [nio-8080-exec-3] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getCommentByPage方法,进行分页计算
+2021-09-25 10:25:01,268 337429 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:25:01,268 337429 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:25:01,268 337429 [nio-8080-exec-5] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getAllComments方法,获取全部的留言信息
+2021-09-25 10:25:01,270 337431 [nio-8080-exec-5] INFO  ervice.impl.CommentServiceImpl  - 调用CommentServiceImpl类的getCommentByPage方法,进行分页计算
+2021-09-25 10:25:01,272 337433 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:01,272 337433 [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:01,275 337436 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:01,275 337436 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:01,278 337439 [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:01,278 337439 [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:01,281 337442 [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:01,281 337442 [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:06,033 342194 [nio-8080-exec-1] INFO  ng.service.impl.CarServiceImpl  - 调用CarServiceImpl类的selectAllUser方法,根据用户id查询所有的物品
+2021-09-25 10:25:06,053 342214 [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "user/carInfo.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:25:06,053 342214 [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh_CN.ftlh"): Not found
+2021-09-25 10:25:06,053 342214 [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh.ftlh"): Not found
+2021-09-25 10:25:06,053 342214 [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo.ftlh"): Not found
+2021-09-25 10:25:06,152 342313 [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:25:06,152 342313 [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:25:06,155 342316 [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:06,155 342316 [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:06,158 342319 [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:06,158 342319 [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:06,162 342323 [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:06,162 342323 [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:25:06,165 342326 [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:25:06,165 342326 [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:04,199 0      [nio-8080-exec-2] INFO  ring.controller.UserController  - 调用showLogin方法,实现了登陆验证功能
+2021-09-25 10:27:04,203 4      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "user/login.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:27:04,203 4      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh_CN.ftlh"): Not found
+2021-09-25 10:27:04,204 5      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login_zh.ftlh"): Not found
+2021-09-25 10:27:04,204 5      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/login.ftlh"): Not found
+2021-09-25 10:27:04,516 317    [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:04,517 318    [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:09,850 5651   [nio-8080-exec-4] INFO  g.service.impl.UserServiceImpl  - 调用UserServiceImpl类的login方法,实现了用户登陆功能
+2021-09-25 10:27:09,852 5653   [nio-8080-exec-4] INFO  g.service.impl.BankServiceImpl  - 调用BankServiceImpl类的seletcBankByUserId方法,实现了根据用户的Id查询对应的银行卡信息
+2021-09-25 10:27:09,853 5654   [nio-8080-exec-4] INFO  .service.impl.RightServiceImpl  - 调用RightServiceImpl类的selectByUserId方法,实现了查询用户是不是Vip的信息
+2021-09-25 10:27:09,853 5654   [nio-8080-exec-4] INFO  ng.service.impl.VipServiceImpl  - 调用UserServiceImpl类的selectVipByuser方法,实现了根据用户id查询对应用户的vip信息 
+2021-09-25 10:27:09,853 5654   [nio-8080-exec-4] INFO  g.service.impl.RoleServiceImpl  - 调用RoleServiceImpl类的selectByUserStatus方法,实现了给用户创建银行卡信息
+2021-09-25 10:27:09,854 5655   [nio-8080-exec-4] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:27:09,856 5657   [nio-8080-exec-4] DEBUG               freemarker.cache  - Couldn't find template in cache for "manage/index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:27:09,856 5657   [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh_CN.ftlh"): Not found
+2021-09-25 10:27:09,856 5657   [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index_zh.ftlh"): Not found
+2021-09-25 10:27:09,856 5657   [nio-8080-exec-4] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("manage/index.ftlh"): Not found
+2021-09-25 10:27:11,303 7104   [nio-8080-exec-5] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:27:11,305 7106   [nio-8080-exec-5] DEBUG               freemarker.cache  - Couldn't find template in cache for "index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:27:11,305 7106   [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+2021-09-25 10:27:11,306 7107   [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+2021-09-25 10:27:11,306 7107   [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index.ftlh"): Not found
+2021-09-25 10:27:11,487 7288   [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:11,487 7288   [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:11,493 7294   [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:11,493 7294   [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:11,497 7298   [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:11,498 7299   [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:11,502 7303   [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:11,502 7303   [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:11,507 7308   [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:11,507 7308   [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:11,512 7313   [nio-8080-exec-1] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 10:27:11,512 7313   [nio-8080-exec-2] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:27:13,324 9125   [nio-8080-exec-6] INFO  ng.service.impl.CarServiceImpl  - 调用CarServiceImpl类的selectAllUser方法,根据用户id查询所有的物品
+2021-09-25 10:27:13,340 9141   [nio-8080-exec-6] DEBUG               freemarker.cache  - Couldn't find template in cache for "user/carInfo.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:27:13,340 9141   [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh_CN.ftlh"): Not found
+2021-09-25 10:27:13,341 9142   [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh.ftlh"): Not found
+2021-09-25 10:27:13,341 9142   [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo.ftlh"): Not found
+2021-09-25 10:27:13,460 9261   [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:13,460 9261   [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:13,465 9266   [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:13,466 9267   [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:13,470 9271   [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:13,470 9271   [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:13,474 9275   [nio-8080-exec-1] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:13,474 9275   [nio-8080-exec-1] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:13,477 9278   [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:13,477 9278   [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:29,269 25070  [nio-8080-exec-4] INFO  ng.service.impl.CarServiceImpl  - 调用CarServiceImpl类的deleteCar方法,根据商品id删除对应的商品
+2021-09-25 10:27:29,286 25087  [nio-8080-exec-3] INFO  ng.service.impl.CarServiceImpl  - 调用CarServiceImpl类的selectAllUser方法,根据用户id查询所有的物品
+2021-09-25 10:27:29,290 25091  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh_CN.ftlh"): Not found
+2021-09-25 10:27:29,291 25092  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh.ftlh"): Not found
+2021-09-25 10:27:29,291 25092  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo.ftlh"): Not found
+2021-09-25 10:27:29,291 25092  [nio-8080-exec-3] DEBUG               freemarker.cache  - "user/carInfo.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:27:29,310 25111  [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:29,310 25111  [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:29,316 25117  [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:29,316 25117  [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:29,321 25122  [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:29,321 25122  [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:29,326 25127  [nio-8080-exec-9] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:29,326 25127  [nio-8080-exec-9] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:29,330 25131  [io-8080-exec-10] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:29,330 25131  [io-8080-exec-10] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:46,419 42220  [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh_CN.ftlh"): Not found
+2021-09-25 10:27:46,419 42220  [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo_zh.ftlh"): Not found
+2021-09-25 10:27:46,420 42221  [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("user/carInfo.ftlh"): Not found
+2021-09-25 10:27:46,420 42221  [nio-8080-exec-1] DEBUG               freemarker.cache  - "user/carInfo.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:27:47,424 43225  [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:47,424 43225  [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:27:47,430 43231  [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:47,430 43231  [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:47,434 43235  [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:47,435 43236  [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:47,439 43240  [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:47,439 43240  [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:27:47,443 43244  [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:27:47,443 43244  [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:29:08,144 0      [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,157 13     [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,160 16     [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,162 18     [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,164 20     [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,166 22     [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,168 24     [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,170 26     [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,172 28     [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,174 30     [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,175 31     [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,177 33     [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,179 35     [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,180 36     [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,184 40     [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,185 41     [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,187 43     [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,188 44     [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,190 46     [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:08,191 47     [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,220 1076   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,222 1078   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,225 1081   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,227 1083   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,228 1084   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,230 1086   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,231 1087   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,232 1088   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,234 1090   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,236 1092   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,238 1094   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,240 1096   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,242 1098   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,244 1100   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,245 1101   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,247 1103   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,249 1105   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,251 1107   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,252 1108   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,254 1110   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,902 1758   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,905 1761   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,907 1763   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,909 1765   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,911 1767   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,912 1768   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,913 1769   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,915 1771   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,916 1772   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,918 1774   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,919 1775   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,922 1778   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,924 1780   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,926 1782   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,927 1783   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,929 1785   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,930 1786   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,932 1788   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,934 1790   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:09,936 1792   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,638 5494   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,640 5496   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,643 5499   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,645 5501   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,647 5503   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,650 5506   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,652 5508   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,653 5509   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,654 5510   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,655 5511   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,657 5513   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,658 5514   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,660 5516   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,662 5518   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,664 5520   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,665 5521   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,667 5523   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,669 5525   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,670 5526   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:13,671 5527   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,747 6603   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,749 6605   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,751 6607   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,753 6609   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,754 6610   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,756 6612   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,757 6613   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,759 6615   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,760 6616   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,761 6617   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,763 6619   [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,764 6620   [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,766 6622   [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,768 6624   [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,770 6626   [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,772 6628   [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,774 6630   [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,776 6632   [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,778 6634   [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:14,781 6637   [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,802 11658  [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,804 11660  [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,806 11662  [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,807 11663  [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,809 11665  [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,810 11666  [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,811 11667  [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,812 11668  [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,813 11669  [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,815 11671  [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,816 11672  [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,819 11675  [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,821 11677  [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,823 11679  [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,824 11680  [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,825 11681  [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,827 11683  [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,828 11684  [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,829 11685  [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:19,832 11688  [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,435 0      [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,445 10     [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,448 13     [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,450 15     [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,452 17     [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,455 20     [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,457 22     [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,459 24     [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,461 26     [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,463 28     [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,465 30     [nio-8080-exec-1] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,467 32     [nio-8080-exec-2] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,468 33     [nio-8080-exec-3] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,469 34     [nio-8080-exec-4] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,471 36     [nio-8080-exec-5] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,472 37     [nio-8080-exec-6] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,474 39     [nio-8080-exec-7] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,475 40     [nio-8080-exec-8] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,477 42     [nio-8080-exec-9] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:29:42,478 43     [io-8080-exec-10] INFO  g.interceptor.LoginInterceptor  - 调用LoginInterceptor类的preHandle方法，验证用户是否登陆
+2021-09-25 10:35:34,447 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "error.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:35:34,448 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error_zh_CN.ftlh"): Not found
+2021-09-25 10:35:34,449 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error_zh.ftlh"): Not found
+2021-09-25 10:35:34,449 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("error.ftlh"): Not found
+2021-09-25 10:35:39,212 4765   [nio-8080-exec-3] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:35:39,325 4878   [nio-8080-exec-3] DEBUG               freemarker.cache  - Couldn't find template in cache for "index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:35:39,325 4878   [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+2021-09-25 10:35:39,325 4878   [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+2021-09-25 10:35:39,325 4878   [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index.ftlh"): Not found
+2021-09-25 10:35:39,742 5295   [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:35:39,742 5295   [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:35:39,784 5337   [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:35:39,785 5338   [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:35:39,790 5343   [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:35:39,790 5343   [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:35:39,795 5348   [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:35:39,795 5348   [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:35:39,799 5352   [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:35:39,799 5352   [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:35:39,802 5355   [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 10:35:39,803 5356   [io-8080-exec-10] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:36:00,021 25574  [nio-8080-exec-3] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:36:00,024 25577  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+2021-09-25 10:36:00,024 25577  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+2021-09-25 10:36:00,025 25578  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index.ftlh"): Not found
+2021-09-25 10:36:00,025 25578  [nio-8080-exec-3] DEBUG               freemarker.cache  - "index.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-09-25 10:36:00,145 25698  [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:36:00,145 25698  [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:36:00,151 25704  [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:36:00,151 25704  [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:36:00,155 25708  [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:36:00,156 25709  [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:36:00,160 25713  [nio-8080-exec-7] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:36:00,160 25713  [nio-8080-exec-7] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:36:00,164 25717  [nio-8080-exec-8] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:36:00,164 25717  [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:36:00,169 25722  [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 10:36:00,169 25722  [io-8080-exec-10] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息

@@ -56,6 +56,7 @@
                     var img = $("<img/>");
                     img.attr('src', '/pic/' + product.fileName);
                     img.attr('id', 'productImg');
+                    img.attr('style', "width:300;height=300;");
                     imgDiv.append(img);
                     sty.append(imgDiv);
                     $("#imgDiv").trigger("create");

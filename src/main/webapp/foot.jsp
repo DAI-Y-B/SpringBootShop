@@ -11,7 +11,7 @@
 
 <body>
 <div>
-    Copyright &copy; 2021 加油 All Rights Reserved. 京ICP证1000001号
+    Copyright &copy; 2021 加油！！！ All Rights Reserved. 京ICP证1000001号
 </div>
 </body>
 </html>

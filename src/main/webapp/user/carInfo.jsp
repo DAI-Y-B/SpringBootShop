@@ -171,7 +171,7 @@
 
                         <td class="thumb">
                             <input type="checkbox" name="carinfo" id="carinfo" value="${userCar.productId}"/>
-                            <img src="/pic/${userCar.products.fileName} "/>
+                            <img src="/pic/${userCar.products.fileName} " style="width: 30px; height: 30px;"/>
                             <a href="user/product-view.jsp?id=${userCar.productId}">${userCar.products.name }</a>
                         </td>
                         <td class="price" id="price_id_1">
