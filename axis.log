@@ -8808,3 +8808,248 @@
 2021-09-25 10:36:00,164 25717  [nio-8080-exec-8] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
 2021-09-25 10:36:00,169 25722  [nio-8080-exec-9] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
 2021-09-25 10:36:00,169 25722  [io-8080-exec-10] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-09-25 10:46:10,380 0      [nio-8080-exec-1] INFO  g.service.impl.NewsServiceImpl  - 调用NewsServiceImpl类selectAllNews方法,查询全部新闻消息
+2021-09-25 10:46:10,476 96     [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-09-25 10:46:10,477 97     [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+2021-09-25 10:46:10,477 97     [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+2021-09-25 10:46:10,478 98     [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("index.ftlh"): Not found
+2021-09-25 10:46:10,885 505    [nio-8080-exec-2] INFO  g.controller.ProductController  - 调用rootCategoryQuery方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:46:10,885 505    [nio-8080-exec-2] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryRootCategory方法,查询所有的商品一级目录（没有父节点的词条）
+2021-09-25 10:46:10,924 544    [nio-8080-exec-3] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:46:10,924 544    [nio-8080-exec-3] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:46:10,929 549    [nio-8080-exec-4] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:46:10,929 549    [nio-8080-exec-4] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:46:10,933 553    [nio-8080-exec-5] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:46:10,933 553    [nio-8080-exec-5] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:46:10,936 556    [nio-8080-exec-6] INFO  g.controller.ProductController  - 调用proCateQueryByParenId方法,查询对应父目录下的商品分类
+2021-09-25 10:46:10,937 557    [nio-8080-exec-6] INFO  rvice.impl.CategoryServiceImpl  - 调用CategoryServiceImpl类的queryProCateByParenId方法,查询商品目录的二级目录
+2021-09-25 10:46:10,939 559    [nio-8080-exec-7] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的selectProductInfoById方法,根据商品优惠信息查询是否是优惠产品
+2021-09-25 10:46:10,940 560    [nio-8080-exec-8] INFO  ervice.impl.ProductServiceImpl  - 调用ProductServiceImpl类的getAllProducts方法,获取全部的商品信息
+2021-10-15 23:16:16,455 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-15 23:16:16,456 1      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-15 23:16:16,457 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-15 23:16:16,457 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-15 23:21:07,706 291251 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-15 23:26:10,852 594397 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-15 23:26:10,852 594397 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-15 23:26:10,852 594397 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用失败.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-15 23:26:10,853 594398 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-15 23:26:10,853 594398 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-15 23:26:10,853 594398 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-15 23:26:10,853 594398 [nio-8080-exec-3] DEBUG               freemarker.cache  - "调用失败.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-15 23:26:25,386 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-15 23:26:25,387 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-15 23:26:25,388 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-15 23:26:25,388 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-15 23:29:08,737 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-15 23:29:08,739 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-15 23:29:08,740 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-15 23:29:08,740 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-15 23:34:18,278 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-15 23:34:18,279 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-15 23:34:18,280 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-15 23:34:18,280 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-15 23:35:42,909 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-15 23:35:42,911 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-15 23:35:42,911 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-15 23:35:42,911 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 00:25:32,361 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 00:25:32,363 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 00:25:32,363 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 00:25:32,363 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 00:27:12,370 100009 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 00:27:12,370 100009 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 00:27:12,370 100009 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 00:27:12,370 100009 [nio-8080-exec-3] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 00:29:10,493 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 00:29:10,495 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 00:29:10,495 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 00:29:10,495 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 07:44:52,469 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 07:44:52,471 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 07:44:52,472 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 07:44:52,472 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 07:54:53,470 601001 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 07:54:53,470 601001 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 07:54:53,471 601002 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 07:54:53,471 601002 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 07:55:06,120 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 07:55:06,122 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 07:55:06,123 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 07:55:06,123 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 07:57:45,937 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 07:57:45,938 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 07:57:45,939 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 07:57:45,939 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 08:03:42,419 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 08:03:42,421 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 08:03:42,422 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 08:03:42,422 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 08:04:40,283 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 08:04:40,284 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 08:04:40,285 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 08:04:40,285 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:05:14,179 3633896 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:05:14,179 3633896 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:05:14,180 3633897 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:05:14,180 3633897 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 09:05:27,092 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 09:05:27,093 1      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:05:27,094 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:05:27,094 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:08:20,520 173428 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:08:20,520 173428 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:08:20,520 173428 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:08:20,520 173428 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 09:08:30,420 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 09:08:30,422 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:08:30,423 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:08:30,423 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:11:05,702 155282 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:11:05,703 155283 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:11:05,703 155283 [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:11:05,703 155283 [nio-8080-exec-3] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 09:11:18,136 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 09:11:18,137 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:11:18,138 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:11:18,138 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:20:28,269 550133 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:20:28,270 550134 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:20:28,270 550134 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:20:28,270 550134 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 09:20:36,126 557990 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:20:36,126 557990 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:20:36,126 557990 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:20:36,126 557990 [nio-8080-exec-6] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-16 09:38:19,579 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 09:38:19,580 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:38:19,581 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:38:19,581 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:39:00,319 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 09:39:00,321 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:39:00,322 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:39:00,322 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 09:40:02,607 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 09:40:02,609 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 09:40:02,609 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 09:40:02,610 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 10:49:59,379 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 10:49:59,381 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 10:49:59,381 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 10:49:59,381 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-16 10:55:53,627 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-16 10:55:53,628 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-16 10:55:53,629 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-16 10:55:53,629 3      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 22:06:43,066 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-17 22:06:43,068 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-17 22:06:43,068 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-17 22:06:43,069 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-17 23:17:26,287 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-17 23:17:26,289 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-17 23:17:26,289 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-17 23:17:26,290 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 23:18:18,706 52419  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-17 23:18:18,706 52419  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-17 23:18:18,707 52420  [nio-8080-exec-3] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 23:18:18,707 52420  [nio-8080-exec-3] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-17 23:19:47,626 141339 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-17 23:19:47,626 141339 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-17 23:19:47,626 141339 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 23:19:47,626 141339 [nio-8080-exec-6] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-17 23:24:01,618 395331 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-17 23:24:01,618 395331 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-17 23:24:01,618 395331 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 23:24:01,618 395331 [nio-8080-exec-9] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-17 23:24:25,517 419230 [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-17 23:24:25,518 419231 [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-17 23:24:25,518 419231 [io-8080-exec-10] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 23:24:25,518 419231 [io-8080-exec-10] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-17 23:37:51,896 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-17 23:37:51,898 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-17 23:37:51,898 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-17 23:37:51,898 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-17 23:56:39,852 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-17 23:56:39,853 1      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-17 23:56:39,854 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-17 23:56:39,854 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-17 23:59:32,099 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-17 23:59:32,101 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-17 23:59:32,102 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-17 23:59:32,102 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-18 00:04:38,791 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 00:04:38,793 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-18 00:04:38,793 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-18 00:04:38,793 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-18 00:07:32,781 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 00:07:32,783 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-18 00:07:32,784 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-18 00:07:32,784 3      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-18 00:12:01,523 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 00:12:01,525 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-18 00:12:01,525 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-18 00:12:01,525 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-18 00:32:37,714 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用失败.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 00:32:37,715 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh_CN.ftlh"): Not found
+2021-10-18 00:32:37,716 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败_zh.ftlh"): Not found
+2021-10-18 00:32:37,716 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用失败.ftlh"): Not found
+2021-10-18 08:09:31,446 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 08:09:31,447 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 08:09:31,448 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 08:09:31,448 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 08:16:30,808 419362 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 08:16:30,809 419363 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 08:16:30,809 419363 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 08:16:30,809 419363 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 08:18:26,850 535404 [nio-8080-exec-8] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 08:18:26,851 535405 [nio-8080-exec-8] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 08:18:26,851 535405 [nio-8080-exec-8] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 08:18:26,851 535405 [nio-8080-exec-8] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 08:27:39,702 1088256 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 08:27:39,702 1088256 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 08:27:39,702 1088256 [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 08:27:39,702 1088256 [nio-8080-exec-2] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 09:09:43,802 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 09:09:43,803 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:09:43,804 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:09:43,804 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:10:14,374 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 09:10:14,376 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:10:14,376 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:10:14,376 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:10:50,583 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 09:10:50,584 1      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:10:50,585 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:10:50,585 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:13:39,769 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 09:13:39,770 1      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:13:39,771 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:13:39,771 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:16:08,882 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 09:16:08,884 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:16:08,884 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:16:08,884 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:19:27,861 198979 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:19:27,862 198980 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:19:27,862 198980 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:19:27,862 198980 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 09:20:34,036 265154 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:20:34,036 265154 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:20:34,036 265154 [nio-8080-exec-6] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:20:34,036 265154 [nio-8080-exec-6] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 09:30:45,622 876740 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:30:45,622 876740 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:30:45,622 876740 [nio-8080-exec-9] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:30:45,622 876740 [nio-8080-exec-9] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 09:30:54,313 0      [nio-8080-exec-2] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 09:30:54,314 1      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:30:54,315 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:30:54,315 2      [nio-8080-exec-2] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:49:50,181 1135868 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 09:49:50,182 1135869 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 09:49:50,182 1135869 [nio-8080-exec-5] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
+2021-10-18 09:49:50,182 1135869 [nio-8080-exec-5] DEBUG               freemarker.cache  - "调用成功.ftlh"("zh_CN", UTF-8, parsed) no source found.
+2021-10-18 11:18:10,540 0      [nio-8080-exec-1] DEBUG               freemarker.cache  - Couldn't find template in cache for "调用成功.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+2021-10-18 11:18:10,542 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh_CN.ftlh"): Not found
+2021-10-18 11:18:10,542 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功_zh.ftlh"): Not found
+2021-10-18 11:18:10,542 2      [nio-8080-exec-1] DEBUG               freemarker.cache  - TemplateLoader.findTemplateSource("调用成功.ftlh"): Not found
